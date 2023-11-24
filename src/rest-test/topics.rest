@@ -1,0 +1,20 @@
+
+### Request to mention the percentages of questions from each Topic that the question paper should accommodate too
+
+POST http://localhost:3000/api/question/topic
+Content-Type: application/json
+
+{
+  "totalMarks": 100,
+  "difficultyPercentages": {
+    "Easy": 30,
+    "Medium": 40,
+    "Hard": 30
+  },
+  "topicPercentages": {
+    "Mathematics": 30,
+    "Physics": 30,
+    "Chemistry": 20,
+    "Biology": 20
+  }
+}

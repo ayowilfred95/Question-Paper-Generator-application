@@ -1,0 +1,15 @@
+### Request to generate a question paper of 100 marks total 
+
+
+POST http://localhost:3000/api/question
+Content-Type: application/json
+
+{
+  "totalMarks": 120,
+  "easyPercentage": 30,
+  "mediumPercentage": 50,
+  "hardPercentage": 20
+}
+
+
+
