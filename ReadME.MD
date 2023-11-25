@@ -21,6 +21,8 @@ This repository contains the code for a Question Paper Generator application bui
 ### 🛠 Prerequisites
 - [Node.js](https://nodejs.org/)
 
+```
+
 ### Clone the Repository
 ```bash
 git clone https://github.com/wilfredlopez/Backend-Intership-Assignment.git
