@@ -105,6 +105,26 @@ npm test
     "totalMarks": 100
   }
   ```
+
+## 🔧 Third-Party Libraries
+
+This project leverages several third-party libraries to enhance development, testing, and functionality. Each library serves a specific purpose in streamlining processes and improving the overall quality of the application.
+
+### 1. [Express](https://expressjs.com/)
+   - **Purpose:** To Accelerate Development and Enhance Accessibility
+   - **Description:** Express is a fast, minimalist web framework for Node.js that simplifies the process of building robust web applications. It provides a set of features for web and mobile applications, making it easier to create APIs and handle various HTTP requests.
+
+### 2. [Jest](https://jestjs.io/)
+   - **Purpose:** Testing
+   - **Description:** Jest is a delightful JavaScript testing framework with a focus on simplicity. It is used for unit testing to ensure the reliability and correctness of the application. Jest provides an easy-to-use testing environment with features such as test suites, assertions, and mocking.
+
+### 3. [body-parser](https://www.npmjs.com/package/body-parser)
+   - **Purpose:** Handling JSON Data
+   - **Description:** Body-parser is a middleware for Express.js that parses incoming request bodies in a middleware before handlers. In this project, body-parser is utilized to parse JSON objects, making it easier to handle and display JSON data in the application.
+
+These third-party libraries contribute significantly to the efficiency, accessibility, and reliability of the Question Paper Generator application. 
+
 ```  
+
 
 
